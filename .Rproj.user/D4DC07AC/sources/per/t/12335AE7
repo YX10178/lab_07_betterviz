@@ -3,9 +3,9 @@
     "path": "~/Desktop/datascience/lab_07_betterviz/lab-07.Rmd",
     "project_path": "lab-07.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "1106866301",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1740242462292.0,
     "source_on_save": false,
     "relative_order": 1,
@@ -16,11 +16,11 @@
         "scrollLine": "3"
     },
     "folds": "",
-    "lastKnownWriteTime": 1740181647,
+    "lastKnownWriteTime": 1740242512,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1740242500547,
+    "last_content_update": 1740242512229,
     "read_only": false,
     "read_only_alternatives": []
 }
