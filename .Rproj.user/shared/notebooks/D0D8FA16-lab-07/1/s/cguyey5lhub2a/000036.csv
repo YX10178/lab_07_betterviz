@@ -1,0 +1,7 @@
+"0","ggplot(df, aes(x = date, y = count, group  = mask)) +"
+"0","  geom_line(aes(color = mask))+"
+"0","  labs(title = ""Kansas Covid-19 Daily Cases"","
+"0","       subtitle = ""Mask Counties vs. No-Mask Counties"","
+"0","       x = ""Date"","
+"0","       y = ""Count"") +"
+"0","  theme_minimal()"
