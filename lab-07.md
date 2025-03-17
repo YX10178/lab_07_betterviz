@@ -75,47 +75,44 @@ ggplot(df, aes(x = date, y = count, group  = mask)) +
   theme_minimal()
 ```
 
-![](lab-07_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
-
-``` r
-###the original chart is misleading because the left Y-axis (for Mask Counties) ranges from 15 to 25+.the right Y-axis (for No-Mask Counties) ranges from 4 to 14.
-```
+![](lab-07_files/figure-gfm/unnamed-chunk-2-1.png)<!-- --> the original
+chart is misleading because the left Y-axis (for Mask Counties) ranges
+from 15 to 25+.the right Y-axis (for No-Mask Counties) ranges from 4 to
+14.
 
 ### 3
 
-``` r
-### my visualization (the bar chart) presents the data in a clearer and more honest way compared to the original line chart. 
-##the original chart is misleading because the left Y-axis (for Mask Counties) ranges from 15 to 25+.the right Y-axis (for No-Mask Counties) ranges from 4 to 14.
-##my chart visually display the differences of the cases count more clearly. 
-```
+My visualization (the bar chart) presents the data in a clearer and more
+honest way compared to the original line chart. The original chart is
+misleading because the left Y-axis (for Mask Counties) ranges from 15 to
+25+.the right Y-axis (for No-Mask Counties) ranges from 4 to 14. My
+chart visually display the differences of the cases count more clearly.
 
 ### 4
 
-``` r
-###Mask-wearing counties started with higher case rates but showed a steady decline.
-##No-mask counties had lower case rates and remained relatively stable.
-```
+Mask-wearing counties started with higher case rates but showed a steady
+decline. No-mask counties had lower case rates and remained relatively
+stable.
 
-\######Using the same dataset you constructed, your goal now is to
-create a new visualization that intentionally conveys the opposite
-message of your previous, accurate visualization. This exercise is
-designed to highlight the impact of visualization choices on the
-interpretation of data. It’s a practical exploration of how changing the
-presentation can alter the perceived message, underscoring the ethical
-implications of data visualization.
+Using the same dataset you constructed, your goal now is to create a new
+visualization that intentionally conveys the opposite message of your
+previous, accurate visualization. This exercise is designed to highlight
+the impact of visualization choices on the interpretation of data. It’s
+a practical exploration of how changing the presentation can alter the
+perceived message, underscoring the ethical implications of data
+visualization.
 
 ### 5
 
-``` r
-##the accurate visualization uses a single y axis for mask and nonmask groups. The x-axis represents time from July 12 to August 3, 2020. the line chart shows changes over time. 
-```
+The accurate visualization uses a single y axis for mask and nonmask
+groups. The x-axis represents time from July 12 to August 3, 2020. the
+line chart shows changes over time.
 
 ### 6
 
-``` r
-##convery the opposite message, mask mandates were unnecessary. we can use the dual y aixs with different scales. 
-## we can also use bar chart instead of a line chart
-```
+Convery the opposite message, mask mandates were unnecessary. we can use
+the dual y aixs with different scales. We can also use bar chart instead
+of a line chart
 
 ### 7
 
@@ -166,4 +163,4 @@ ggplot(df_2, aes(x = date)) +
   theme_minimal()
 ```
 
-![](lab-07_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](lab-07_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
